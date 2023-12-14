@@ -117,6 +117,8 @@ li {
     max-height: 170px;
     max-width: 170px;
     text-align: center;
+    color: #1f2937;
+    font-weight: 300;
 }
 .card img {
     width: 100%;
