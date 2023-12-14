@@ -1,5 +1,5 @@
 body {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: roboto, sans-serif;
     margin: auto;
     min-height: 100vh;
     display: flex;
@@ -10,6 +10,16 @@ body {
     display: flex;
     width: 1000px;
     align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 35px;
 }
 
 /* Header */
@@ -27,6 +37,7 @@ body {
 
 .logo {
     font-size: 24px;
+    font-weight: 600;
     color: #f9faf8;
 }
 
@@ -34,16 +45,47 @@ ul {
     color:#f9faf8;
     display: flex;
     padding: 0;
-    gap: 10px;
-    margin-right: 10px;
+    gap: 20px;
 }
 
 li {
     list-style-type: none;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
-/* Main content */
+/* Main Content */
+
+/* Name Board */
 
 .nameboard {
     background-color: #1F2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
 }
+
+.nb {
+    margin: 117px 0;
+}
+
+.tboard {
+    padding-right: 55px;
+}
+
+.placeholder {
+    width: 530px;
+    height: 235px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.subtitle {
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
