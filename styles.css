@@ -1,0 +1,49 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    width: 1000px;
+    align-items: center;
+}
+
+/* Header */
+
+.header {
+    justify-content: space-between;
+}
+
+.webheader {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul {
+    color:#f9faf8;
+    display: flex;
+    padding: 0;
+    gap: 10px;
+    margin-right: 10px;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* Main content */
+
+.nameboard {
+    background-color: #1F2937;
+}
