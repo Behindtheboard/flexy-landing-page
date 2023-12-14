@@ -22,10 +22,10 @@ body {
 button {
     background-color: #3882f6;
     color: #f9faf8;
-    font-size: 18px;
+    font-size: 16px;
     border-radius: 10px;
     border: none;
-    padding: 10px 35px;
+    padding: 7px 35px;
 }
 
 
@@ -141,7 +141,7 @@ li {
 
 #quote {
     font-size: 36px;
-    font-weight: lighter;
+    font-weight: 100;
     font-style: italic;
     color: #1f2937;
 }
@@ -154,3 +154,34 @@ li {
 }
 
 /* Call to Action */
+
+.ac {
+    margin: 100px auto;
+    height: 150px;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+#accenter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+}
+
+#call {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+#action {
+    font-size: 18px;
+    font-weight: 100;
+    color: #f9faf8;
+}
+
+button#acbutton {
+    border: none;
+    border: 2px solid #f9faf8;
+}
