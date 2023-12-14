@@ -89,3 +89,38 @@ li {
     padding-bottom: 15px;
 }
 
+/* Infomation Cards */
+
+.infocards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ic {
+    flex-direction: column;
+    margin: 53px auto;
+}
+
+#infotitle {
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 53px;
+}
+
+.cards {
+    display: flex;
+    padding-bottom: 137px;
+    gap: 50px;
+}
+
+.card {
+    max-height: 170px;
+    max-width: 170px;
+    text-align: center;
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+
