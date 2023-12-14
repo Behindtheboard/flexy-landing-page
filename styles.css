@@ -6,6 +6,12 @@ body {
     flex-direction: column;
 }
 
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .container {
     display: flex;
     width: 1000px;
@@ -21,6 +27,7 @@ button {
     border: none;
     padding: 10px 35px;
 }
+
 
 /* Header */
 
@@ -61,8 +68,6 @@ li {
 .nameboard {
     background-color: #1F2937;
     color: #f9faf8;
-    display: flex;
-    justify-content: center;
 }
 
 .nb {
@@ -91,12 +96,6 @@ li {
 
 /* Infomation Cards */
 
-.infocards {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .ic {
     flex-direction: column;
     margin: 53px auto;
@@ -124,3 +123,34 @@ li {
     height: auto;
 }
 
+/* Quote or Testimonial */
+
+.testimonial {
+    background-color: #e5e7eb;
+}
+
+.qt {
+    margin: 100px auto;
+}
+
+#qbox {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+#quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+#credit {
+    font-size: 22px;
+    font-weight: bold;
+    align-self: flex-end;
+    padding-right: 35px;
+}
+
+/* Call to Action */
