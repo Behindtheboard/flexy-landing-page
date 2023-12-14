@@ -185,3 +185,19 @@ button#acbutton {
     border: none;
     border: 2px solid #f9faf8;
 }
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+#copyright {
+    font-size: 18px;
+    font-weight: 200;
+    color: #f9faf8;
+    margin: 40px auto;
+}
